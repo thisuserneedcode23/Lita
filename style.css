@@ -1,0 +1,66 @@
+.h1{
+    text-align: center;
+    margin-top: 357px;
+    font-size: 50px;
+    padding: 50px;
+    color: white;
+}
+.personal{
+    position: absolute;
+    top: 90px;
+    right: 100px;
+    margin-bottom: 900px;
+    text-decoration: none;
+    font-size: 30px;
+    color: lightblue;
+}
+.personal:hover{
+    background-color: lightslategray;
+    border-radius: 6px;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 1s;
+}
+.hobbies:hover{
+    background-color: lightslategray;
+    border-radius: 6px;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 1s;
+}
+.active:hover{
+    background-color: lightslategray;
+    border-radius: 6px;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 1s;
+}
+.hobbies{
+    position: absolute;
+    top: 90px;
+    right: 410px;
+    margin-bottom: 900px;
+    text-decoration: none;
+    font-size: 30px;
+    color: lightblue;
+}
+.active{
+    position: absolute;
+    top: 90px;
+    right: 580px;
+    margin-bottom: 900px;
+    text-decoration: none;
+    font-size: 30px;
+    color: lightblue;
+}
+.video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+}
